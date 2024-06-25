@@ -134,16 +134,14 @@ cd your-repo-name
 
 #### 4\. Install Node.js Dependencies
 
-bash
-Copy code
-cd js
-npm install -g npm@latest
-npm install express mongodb cors
+bash/terminal<br>
+npm install -g npm@latest<br>
+npm install express mongodb cors<br>
 
 #### 5\. Start the Node.js Server
 
-bash
-Copy code
+bash/terminal<br>
+run the following from root folder:<br>
 node server.js
 
 This will start the server at `http://localhost:3000`.
