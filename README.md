@@ -31,7 +31,6 @@ Build an interactive map of the different types of meteorites that fell from the
 To provide an interactive and educational tool that allows users to explore meteorite data in a visually engaging manner.
 
 ### The Process Map
-
 ![TheProcessMap](https://github.com/pabloandresguinda/Project_3_Group_4_Meteorites/assets/118937365/7544fd52-a05f-475e-9352-aee48143239d)
 
 
@@ -110,9 +109,13 @@ To provide an interactive and educational tool that allows users to explore mete
 - `The Sky is Falling!!!.ppt` - a skim of the project.
 
 ### The Dashboard
+<b>Meteorites by Type - Found before 1949</b>
 
-![TheDashboard](https://github.com/pabloandresguinda/Project_3_Group_4_Meteorites/assets/118937365/7163e922-0671-4542-98ec-e46a4ea2ad98)
+![Meteorites by Type - Found before 1949](https://github.com/NicholasJWiid/meteorite_web_visualization/assets/107589203/8ab85e61-c61c-4627-aad2-03b8f228f6cd)
+<br>
+<b>Meteorites seen and found over South Africa</b>
 
+![Meteorites seen and found over South Africa](https://github.com/NicholasJWiid/meteorite_web_visualization/assets/107589203/a55c5b93-4873-4238-a802-218b957198c7)
 
 
 ### Step-by-Step Guide
