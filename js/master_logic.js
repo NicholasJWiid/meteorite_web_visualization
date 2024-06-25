@@ -277,7 +277,7 @@ for (let i = 0; i < deathsData.length; i++) {
       .bindPopup(`<h6>Meteorite Name: ${deathsData[i].properties.name}</h6>
         <h6>Meteritie Rock-type: ${deathsData[i].properties.group_name}</h6>
         <h6>Meteorite Class: ${deathsData[i].properties.class_name}</h6><hr>
-        <p><b>Year:</b> ${deathsData[i].properties.year}
+        <p><b>Found Year:</b> ${deathsData[i].properties.year}
         <p><b>Mass:</b> ${deathsData[i].properties.mass_string}
         <p><b>Diameter:</b> ${deathsData[i].properties.meteorite_width_cm_string}
         <p><b>Location:</b> Lat: ${deathsData[i].properties.reclat} - Lon: ${deathsData[i].properties.reclong}
