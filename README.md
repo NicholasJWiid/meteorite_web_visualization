@@ -137,7 +137,8 @@ cd your-repo-name
 bash
 Copy code
 cd js
-npm install
+npm install -g npm@latest
+npm install express mongodb cors
 
 #### 5\. Start the Node.js Server
 
@@ -167,19 +168,16 @@ We observed that using an API call to fetch data in real time allows for up-to-d
 
 ## References
 
-- https://data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh/data_preview
-- https://data.nasa.gov/resource/gh4g-9sfh.json?$limit=50000
-- https://medium.com/luwd-media/interstellar-christopher-nolan-s-life-affirming-new-masterpiece-aeb9f341422b
-- https://en.wikipedia.org/wiki/Ann_Elizabeth_Fowler_Hodges#:~:text=She%20recalled%20the%20meteorite%20came,giving%20her%20a%20large%20bruise.
-- https://www.istockphoto.com/photo/star-shower-gm503020332-81472357
-- https://www.astronomy.com/science/unlucky-unconfirmed-tales-of-people-killed-by-meteorites/
-- https://www.logo.wine/logo/PostgreSQL
-- https://worldvectorlogo.com/logo/mongodb-icon-1
-- https://commons.wikimedia.org/wiki/File:Sqlite-square-icon.svg
-- https://chatgpt.com/
-- https://github.com/
-- Xpert Learning Assistant https://bootcampspot.instructure.com/courses/5099/external_tools/313 
-
+- [Nasa Open data](https://data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh/data_preview)
+- [Data source](https://data.nasa.gov/resource/gh4g-9sfh.json?$limit=50000)
+- [Interstellar presentation image](https://medium.com/luwd-media/interstellar-christopher-nolan-s-life-affirming-new-masterpiece-aeb9f341422b)
+- [Meteorite strikes Ann Elizabeth Fowler Hodges](https://en.wikipedia.org/wiki/Ann_Elizabeth_Fowler_Hodges#:~:text=She%20recalled%20the%20meteorite%20came,giving%20her%20a%20large%20bruise)
+- [Star shower picture](https://www.istockphoto.com/photo/star-shower-gm503020332-81472357)
+- [Unconfirmed, unlucky tales of people killed by meteorites](https://www.astronomy.com/science/unlucky-unconfirmed-tales-of-people-killed-by-meteorites/)
+- [Chatgpt](https://chatgpt.com/)
+- [Github](https://github.com/)
+- [UC Berkeley Xpert Learning Assistant](https://bootcampspot.instructure.com/courses/5099/external_tools/313)
+- [Meteorite classification code snippet](https://www.kaggle.com/code/brsdincer/meteorite-landings-analysis-all-eda-theory/notebook)
 
 
 
