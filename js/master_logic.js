@@ -216,7 +216,7 @@ function updateDynamicLayers(meteorite_data) {
       layer.bindPopup(`<h6>Meteorite Name: ${feature.properties.name}</h6>
         <h6>Meteritie Rock-type: ${feature.properties.group_name}</h6>
         <h6>Meteorite Class: ${feature.properties.class_name}</h6><hr>
-        <p><b>Year:</b> ${feature.properties.year}
+        <p><b>Found Year:</b> ${feature.properties.year}
         <p><b>Mass:</b> ${feature.properties.mass_string}
         <p><b>Diameter:</b> ${feature.properties.meteorite_width_cm_string}
         <p><b>Location:</b> Lat: ${feature.properties.reclat} - Lon: ${feature.properties.reclong}`)
@@ -308,7 +308,7 @@ for (let i = 0; i < fellData.length; i++) {
       .bindPopup(`<h6>Meteorite Name: ${fellData[i].properties.name}</h6>
         <h6>Meteritie Rock-type: ${fellData[i].properties.group_name}</h6>
         <h6>Meteorite Class: ${fellData[i].properties.class_name}</h6><hr>
-        <p><b>Year:</b> ${fellData[i].properties.year}
+        <p><b>Found Year:</b> ${fellData[i].properties.year}
         <p><b>Mass:</b> ${fellData[i].properties.mass_string}
         <p><b>Diameter:</b> ${fellData[i].properties.meteorite_width_cm_string}
         <p><b>Location:</b> Lat: ${fellData[i].properties.reclat} - Lon: ${fellData[i].properties.reclong}`));
@@ -334,7 +334,7 @@ let topo = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
   attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
 });
 
-// Add the satellite layer
+// Add the dark layer
 var dark = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.{ext}', {
 	minZoom: 0,
 	maxZoom: 20,
@@ -346,7 +346,7 @@ var dark = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{
 let baseMaps = {
   Basic: smooth,
   Topographical: topo,
-  Satellite: dark
+  Dark: dark
 };
 
 let overlayMaps = {}
