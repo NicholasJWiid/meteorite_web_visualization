@@ -109,10 +109,12 @@ To provide an interactive and educational tool that allows users to explore mete
 - `The Sky is Falling!!!.ppt` - a skim of the project.
 
 ### The Dashboard
-####Meteorites by Type - Found before 1949
+<b>Meteorites by Type - Found before 1949</b>
+
 ![Meteorites by Type - Found before 1949](https://github.com/NicholasJWiid/meteorite_web_visualization/assets/107589203/8ab85e61-c61c-4627-aad2-03b8f228f6cd)
 <br>
-####Meteorites seen and found over South Africa
+<b>Meteorites seen and found over South Africa</b>
+
 ![Meteorites seen and found over South Africa](https://github.com/NicholasJWiid/meteorite_web_visualization/assets/107589203/a55c5b93-4873-4238-a802-218b957198c7)
 
 
