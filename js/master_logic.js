@@ -90,9 +90,10 @@ function filterData(meteoriteData) {
         }))
     };
     // Run the create features function with converted data
+    buildCharts(yearData)
     updateDynamicLayers(geojsonData)
     buildStaticLayers(geojsonData)
-    buildCharts(yearData)
+  
 }
 
 
@@ -149,10 +150,10 @@ function buildCharts(data) {
       height: 250,
       width: 300,
       margin: {
-            l: 35,
+            l: 45,
             r: 20,
-            t: 50,
-            b: 70
+            t: 10,
+            b: 100
           },
       yaxis: {
               tickangle: 315 },
@@ -162,6 +163,11 @@ function buildCharts(data) {
 
   // Render the bar chart
   Plotly.newPlot('chart', barData, layout);
+  
+  // Handle window resize event
+   window.onresize = function() {
+    Plotly.relayout('chart', { autosize: true });
+  };
 }
 
 
@@ -365,5 +371,19 @@ var layerControl = L.control.layers(baseMaps, overlayMaps, {
     }).addTo(myMap);
 
 // Fetch data from local sever an run maps
-updateMap()
-addLegend()
+document.addEventListener('DOMContentLoaded', function() {
+  updateMap();
+  addLegend();
+  
+  // Cycle through ticker text
+  const ticker = document.querySelector('.ticker');
+    const items = document.querySelectorAll('.ticker-item');
+    let currentIndex = 0;
+
+    function showNextItem() {
+        ticker.style.transform = `translateX(-${currentIndex * 100}%)`;
+        currentIndex = (currentIndex + 1) % items.length;
+    }
+
+    setInterval(showNextItem, 10000);
+});
